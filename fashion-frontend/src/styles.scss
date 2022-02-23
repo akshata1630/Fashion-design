@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+// regular style toast
+@import "~ngx-toastr/toastr";
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+::ng-deep .cdk-overlay-container {
+  z-index: 2000;
+}
+
+.dropdown-menu {
+  padding: 0.5rem 0 !important;
+  border: 1px solid rgba(0, 0, 0, 0.15) !important;
+  border-radius: 0.25rem;
+}
+
+.inputUppercase {
+  text-transform: uppercase;
+}
+
+.placeholder-para {
+  margin-top: 2em;
+  font-size: 2em;
+  text-align: center;
+  opacity: 0.4;
+}
